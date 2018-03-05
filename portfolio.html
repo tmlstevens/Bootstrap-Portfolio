@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tim Stevens</title>
+    <!-- BOOTSTRAP CSS v4.0.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:#d6d6d6">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 fluid">
+        <a class="navbar-brand p-0 m-0" style="background-color:#4682b4">
+            <h1 class="pt-2 pb-2 pl-3 pr-3 text-white">Tim Stevens</h1>
+        </a>
+        <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto pr-4">
+                <li class="nav-item active">
+                    <a class="nav-link pl-4" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link pl-4" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+    <div class="container mt-4 mb-5">
+      
+        <div class="row">
+            <div class="col-md-8 bg-light mb-4 mr-4 pl-4 pt-4">
+                <h2 class="align-middle" style="color:steelblue">About Me</h2>
+                <hr class="mt-0"/>
+
+                <div class="row">
+                    <div class="col">
+                        <img class="w-100" style="float:right" src="assets/images/portfolio_1.jpeg" alt="generic picture">
+                        <h4 class="w-100 text-center text-white" style="background-color:steelblue">Hangman</h4>
+                    </div>
+                    <div class="col">
+                        <img class="w-100" style="float:left" src="assets/images/portfolio_2.jpeg" alt="generic picture">
+                        <h4 class="w-100 mb--3 text-center text-white" style="background-color:steelblue">RPG Game</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img class="w-100" style="float:right" src="assets/images/portfolio_3.jpeg" alt="generic picture">
+                        <h4 class="w-100 text-center text-white" style="background-color:steelblue">Trivia Game</h4>
+                    </div>
+                    <div class="col">
+                        <img class="w-100" style="float:left" src="assets/images/portfolio_4.jpeg" alt="generic picture">
+                        <h4 class="w-100 text-center text-white" style="background-color:steelblue">Rutgers Info Widget</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="w-100" src="assets/images/portfolio_5.jpeg" alt="generic picture">
+                        <h4 class="w-100 text-center text-white" style="background-color:steelblue">Rock Paper Scissors</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 mb-4 mb-4 bg-transparent" style="min-width:12rem; max-width:12rem">
+
+                <div class="row pb-3 bg-light">
+                    <div class="col bg-light text-center" style="height:3rem">
+                        <h4 class="text-secondary m-0 pt-3">Follow Me</h4>
+                        <hr class="m-0 bg-muted" />
+                    </div>
+                </div>
+        
+                <div class="row bg-light" style="height:4rem">
+                    <div class="col bg-transparent m-1.5" style="height:3rem">
+                        <a href="https://github.com/tmlstevens"><img src="assets/images/GitHub.png" alt="GitHub logo image"></a>
+                        <a href="https://www.linkedin.com/in/tim-stevens-27796831/"><img src="assets/images/Linked-In.png" alt="Linked-In logo image"></a>
+                        <a href="https://www.pinterest.com/tim_stevens/"><img src="assets/images/Pinterest.png" alt="Pinterest logo image" ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <footer class="footer">
+    <div class="position-fixed m-0 pt-2" style="background-color:steelblue; bottom:0; width:100vw; height:2.5rem;">
+        <span style="color:white; width:100vw; font-size:12px;" id="mine">
+          <p style="text-align:center">
+              &#169;
+            <script>
+            document.write(new Date().getFullYear());
+            </script>, Tim Stevens
+          <p>
+        </span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
